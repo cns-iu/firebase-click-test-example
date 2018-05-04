@@ -4,14 +4,9 @@ This example shows how to add objects to a Firebase Database.
 
 ## Setup
 
--   Sign up for a Firebase account.
--   : `npm install`
--   Login to firebase: `npm run login`
--   Initialize firebase database: `npm run setup`
-    -   When presented with options, select Database and Hosting.
-    -   It will generate a number of files to use.
--   Add the database config: `npm run create-config`
--   Push test to hosting: `npm run deploy`
+First, sign up for a Firebase account at <https://firebase.google.com/>.
+
+Then run these commands:
 
 ```
 # Setup environment
