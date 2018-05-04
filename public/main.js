@@ -1,5 +1,4 @@
 // Assumes config.js was included before this script
-firebase.initializeApp(config);
 var database = firebase.database();
 var clicksRef = firebase.database().ref('clicks');
 
