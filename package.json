@@ -1,0 +1,19 @@
+{
+  "name": "firebase-click-test-example",
+  "version": "1.0.0",
+  "description": "A test firebase application for logging clicks.",
+  "main": "public/main.js",
+  "scripts": {
+    "full-setup": "npm run login && npm run setup && npm run create-config && npm run deploy",
+    "login": "firebase login",
+    "setup": "firebase init database && firebase init hosting",
+    "create-config": "firebase setup:web > public/config.js",
+    "deploy": "firebase deploy",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "license": "MIT",
+  "devDependencies": {
+    "firebase": "^4.13.1",
+    "firebase-tools": "^3.18.4"
+  }
+}

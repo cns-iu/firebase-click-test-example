@@ -1,0 +1,56 @@
+#box {
+  width: 640px;
+  height: 480px;
+  background-color: orange;
+  color: black;
+  z-index: 0;
+}
+
+#top-left {
+  float: left;
+  z-index: 1;
+}
+
+#bottom-right {
+  float: right;
+  margin-top: 430px;
+  z-index: 1;
+}
+
+#instructions {
+  background-color: rgba(255,255,255,0.5);
+  font-size: 30px;
+  padding: 10px;
+  z-index: 2;
+}
+
+#popup {
+  background-color: rgba(255,255,255,0.9);
+  width: 600px;
+  height: 400px;
+  z-index: 3;
+}
+#popup span {
+  width: 400px;
+  font-weight: bold;
+  font-size: 30px;
+}
+
+.circle {
+  width: 50px;
+  height: 50px;
+  background-color: red;
+  border-radius: 50%;
+}
+
+.screen-centered {
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  -webkit-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+}
+
+.hidden {
+  display: none;
+}

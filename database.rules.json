@@ -1,0 +1,11 @@
+{
+  "rules": {
+    ".read": false,
+    "clicks": {
+      "$click": {
+        ".write": true,
+        ".validate": "newData.hasChildren(['responseId', 'circle', 'x', 'y', 'date', 'timestamp']) && newData.child('responseId').isString() && newData.child('circle').isString() && newData.child('x').isNumber() && newData.child('y').isNumber() && newData.child('date').isString() && newData.child('timestamp').isNumber()"
+      }
+    }
+  }
+}

@@ -1,0 +1,33 @@
+<!doctype html>
+<html>
+  <head>
+    <title>Click Test</title>
+    <link rel="stylesheet" type="text/css" href="main.css">
+  </head>
+  <body>
+    <div id="instructions" class="screen-centered">
+      <b>Instructions:</b>
+      <ul>
+        <li>Click the top-left circle</li>
+        <li>Click the bottom-right circle</li>
+        <li>Follow popup instructions</li>
+      </ul>
+    </div>
+
+    <div id="popup" class="screen-centered hidden">
+      <span class="screen-centered">
+        <p>Thank you for participating!</p>
+        <p>Please close this window and return to the survey.</p>
+      </span>
+    </div>
+
+    <div id="box" class="screen-centered">
+      <div id="top-left" class="circle" onclick="topLeftClicked(event)"></div>
+      <div id="bottom-right" class="circle" onclick="bottomRightClicked(event)"></div>
+    </div>
+  </body>
+
+  <script src="https://www.gstatic.com/firebasejs/4.13.0/firebase.js"></script>
+  <script src="config.js"></script>
+  <script src="main.js"></script>
+</html>
